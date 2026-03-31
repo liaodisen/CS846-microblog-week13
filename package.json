@@ -1,0 +1,51 @@
+{
+  "name": "cs846-miniblog",
+  "version": "0.1.0",
+  "description": "A Twitter-like microblogging web application for CS846",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "logs:export-md": "node scripts/export-logs-md.js",
+    "db:init": "node scripts/init-db.js"
+  },
+  "keywords": [
+    "microblog",
+    "twitter",
+    "course-project"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "clsx": "^2.0.0",
+    "date-fns": "^3.0.0",
+    "dotenv": "^16.0.0",
+    "http-status-codes": "^2.3.0",
+    "jsonwebtoken": "^9.0.0",
+    "next": "^14.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "sqlite3": "^5.1.6",
+    "tailwindcss": "^3.3.0",
+    "zod": "^3.22.0"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.1.0",
+    "@testing-library/react": "^14.0.0",
+    "@types/jest": "^29.5.14",
+    "@types/jsonwebtoken": "^9.0.5",
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.0.0",
+    "autoprefixer": "^10.4.0",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "postcss": "^8.4.0",
+    "ts-jest": "^29.4.6",
+    "typescript": "^5.3.0"
+  }
+}
